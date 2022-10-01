@@ -1,0 +1,158 @@
+.Banner {
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.Banner__background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.Banner__brand {
+    position: absolute;
+    top: 211px;
+    right: 0;
+    height: 167px;
+}
+
+.Banner__logo {
+    position: absolute;
+    right: 88px;
+    top: -86px;
+}
+
+.Banner-zoom {
+    z-index: 1;
+}
+
+.Banner__title {
+    opacity: 0.79;
+    font-size: 2.3rem;
+    font-weight: 900;
+    line-height: 2;
+    letter-spacing: -0.03em;
+    background: linear-gradient(142.07deg, #AB238F 0.94%, #DF3295 34.4%, #FE9D9B 71.35%, #FF7770 100.91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.Banner__heading {
+    font-size: 9.8rem;
+    font-weight: 800;
+    margin: 1px 0 0 -5px;
+    line-height: 1;
+}
+
+.Banner__text {
+    font-size: 1.6rem;
+    max-width: 320px;
+    margin-top: 22px;
+    color: #777;
+    line-height: 1.5;
+}
+
+.Banner__select {
+    margin: 12px 12px 0 0;
+    height: 30px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.Banner__select-price {
+    font-size: 2.3rem;
+    font-weight: 700;
+    position: relative;
+    top: 2px;
+}
+
+.Banner-group {
+    margin-top: 30px;
+}
+
+.Banner__button {
+    margin-top: 32px;
+}
+
+.Banner__button-item {
+    margin: 0 12px;
+}
+
+.Banner-img {
+    height: 338px;
+    margin-top: 146px;
+    position: relative;
+}
+
+.Banner__list {
+    list-style: none;
+    display: flex;
+    margin-top: 26px;
+}
+
+.Banner__list-img {
+    padding-right: 12px;
+    height: 150px;
+}
+
+.overplay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    background-color: rgba(red, green, blue, alpha);
+}
+
+.Banner__statistical {
+    background-color: #000;
+    height: 100%;
+    min-height: 181px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.Banner__foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.statistical__data {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.statistical__data::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 100%;
+    border-left: 1px solid rgba(255, 255, 255, 0.24);
+    transform: translateY(-50%);
+}
+
+.Banner__foot:first-child .statistical__data::before {
+    display: none;
+}
+
+.statistical__amount {
+    color: var(--white-color);
+    font-size: 3rem;
+    display: inline-flex;
+    align-items: baseline;
+    font-weight: 700;
+}
+
+.statistical__text {
+    color: #888;
+    font-size: 1.5rem;
+    margin: auto;
+    padding-left: 12px;
+}
